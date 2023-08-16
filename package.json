@@ -10,15 +10,20 @@
     "server": "json-server -d 750 -w -p 3333 ./server.js"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^13.4.16",
+    "@types/lodash": "^4.14.197",
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
+    "lodash": "^4.17.21",
     "next": "13.4.16",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-virtualized": "^9.22.5",
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "@types/react-virtualized": "^9.21.22",
     "json-server": "^0.17.3"
   }
 }
